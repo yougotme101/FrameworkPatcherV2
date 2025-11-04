@@ -106,7 +106,7 @@ echo $! > api.pid
 
 **Stop Services:**
 ```bash
-pkill -f "python -m Framework"
+pkill -f "bot.py"
 pkill -f "uvicorn"
 ```
 
